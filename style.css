@@ -1,0 +1,59 @@
+body{
+    background-color: orangered;
+    color:palegreen;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    padding-top: 5em;
+}
+
+.form-control{
+    background-color:rgba(236, 222, 222, 0.938);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+.btn{
+    border-radius: 5px;
+    padding: 9px 25px;
+    background-color: rgb(36, 36, 201);
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: teal;
+}
+
+
+.search-box{
+    position: relative;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.details{
+    text-align: center;
+}
+
+.preview{
+    margin-bottom: 100px;
+}
+
+
+
+#meal-list{
+    padding:  5%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    grid-gap: 15px;
+}
